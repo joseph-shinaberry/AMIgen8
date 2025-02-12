@@ -11,10 +11,8 @@ GRUBPKGS_X86=(
       efibootmgr
       grub2-efi-aa64
       grub2-efi-aa64-modules
-      grub2-pc
       grub2-pc-modules
       grub2-tools
-      grub2-tools-efi
       grub2-tools-minimal
       shim-aa64
 )

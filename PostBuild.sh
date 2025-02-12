@@ -774,10 +774,10 @@ ConfigureCloudInit
 GrubSetup
 
 # Legacy (BIOS) boot-mode setup
-if [[ -d /sys/firmware/efi ]]
-then
-  GrubSetup_DualMode
-fi
+# if [[ -d /sys/firmware/efi ]]
+# then
+#   GrubSetup_DualMode
+# fi
 
 # Clean up fstab
 sed -i '/^\/dev\/.*\s\s*\/boot/d' "${CHROOTMNT}/etc/fstab"

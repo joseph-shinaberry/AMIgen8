@@ -473,7 +473,7 @@ function GrubSetup {
          -c \
          -d '"${EFI_DEV}"' \
          -p 1 \
-         -l \\EFI\\redhat\\shimx64.efi \
+         -l \\EFI\\redhat\\shimaa64.efi \
          -L '"${CHROOT_OS_NAME}"'
      '
      
